@@ -95,7 +95,7 @@
         <maven.resource.version>3.2.0</maven.resource.version>
         <mockito.version>3.12.4</mockito.version>
         <mybatis-plus-boot-starter.version>3.5.3.1</mybatis-plus-boot-starter.version>
-        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.31</mysql-connector-java.version>
         <ojdbc8.version>12.2.0.1</ojdbc8.version>
         <org.commonmark>0.21.0</org.commonmark>
         <oshi.version>6.4.2</oshi.version>
@@ -718,7 +718,7 @@
                         </goals>
                         <configuration>
                             <rules>
-                                <banDuplicatePomDependencyVersions />
+                                <banDuplicatePomDependencyVersions/>
                             </rules>
                         </configuration>
                     </execution>
@@ -766,7 +766,7 @@
                             <version>2.34.0</version>
                         </palantirJavaFormat>
 
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <importOrder>
                             <order>\#,org.dinky,org.apache,java,javassist,javax,org,com,</order>
                         </importOrder>
@@ -841,7 +841,7 @@
     </scm>
     <repositories>
         <repository>
-            <snapshots />
+            <snapshots/>
             <id>apache-snapshots</id>
             <url>https://maven.aliyun.com/repository/apache-snapshots</url>
         </repository>
