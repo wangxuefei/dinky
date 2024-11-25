@@ -117,7 +117,7 @@
         <spotless.ratchetFrom>origin/dev</spotless.ratchetFrom>
         <spotless.version>2.27.1</spotless.version>
         <spring-boot-dependencies.version>2.7.11</spring-boot-dependencies.version>
-        <spring.ldap.version>3.1.0</spring.ldap.version>
+        <spring.ldap.version>3.2.12</spring.ldap.version>
         <target.java.version>8</target.java.version>
         <testcontainers.version>1.16.2</testcontainers.version>
     </properties>
@@ -718,7 +718,7 @@
                         </goals>
                         <configuration>
                             <rules>
-                                <banDuplicatePomDependencyVersions />
+                                <banDuplicatePomDependencyVersions/>
                             </rules>
                         </configuration>
                     </execution>
@@ -766,7 +766,7 @@
                             <version>2.34.0</version>
                         </palantirJavaFormat>
 
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <importOrder>
                             <order>\#,org.dinky,org.apache,java,javassist,javax,org,com,</order>
                         </importOrder>
@@ -841,7 +841,7 @@
     </scm>
     <repositories>
         <repository>
-            <snapshots />
+            <snapshots/>
             <id>apache-snapshots</id>
             <url>https://maven.aliyun.com/repository/apache-snapshots</url>
         </repository>
