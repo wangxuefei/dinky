@@ -107,7 +107,7 @@
         <protobuf-java.version>2.5.0</protobuf-java.version>
         <reflections.version>0.10.2</reflections.version>
         <revision>1.0.0-SNAPSHOT</revision>
-        <sa-token.version>1.37.0</sa-token.version>
+        <sa-token.version>1.41.0</sa-token.version>
         <scala.binary.version>2.12</scala.binary.version>
         <scala.version>2.12.10</scala.version>
         <!--  `provided` for product environment ,`compile` for dev environment  -->
@@ -718,7 +718,7 @@
                         </goals>
                         <configuration>
                             <rules>
-                                <banDuplicatePomDependencyVersions />
+                                <banDuplicatePomDependencyVersions/>
                             </rules>
                         </configuration>
                     </execution>
@@ -766,7 +766,7 @@
                             <version>2.34.0</version>
                         </palantirJavaFormat>
 
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <importOrder>
                             <order>\#,org.dinky,org.apache,java,javassist,javax,org,com,</order>
                         </importOrder>
@@ -841,7 +841,7 @@
     </scm>
     <repositories>
         <repository>
-            <snapshots />
+            <snapshots/>
             <id>apache-snapshots</id>
             <url>https://maven.aliyun.com/repository/apache-snapshots</url>
         </repository>
