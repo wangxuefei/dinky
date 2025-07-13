@@ -38,7 +38,7 @@
         <dependency>
             <groupId>io.fabric8</groupId>
             <artifactId>kubernetes-client</artifactId>
-            <version>5.12.4</version>
+            <version>7.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.dinky</groupId>
@@ -224,6 +224,6 @@ for k8s commit tasks-->
         </plugins>
     </build>
 
-    <profiles />
+    <profiles/>
 
 </project>
