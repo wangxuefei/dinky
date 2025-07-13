@@ -45,7 +45,7 @@
         <dependency>
             <groupId>org.apache.phoenix</groupId>
             <artifactId>phoenix-core</artifactId>
-            <version>5.0.0-HBase-2.0</version>
+            <version>5.2.0</version>
             <scope>${scope.runtime}</scope>
             <exclusions>
                 <exclusion>
